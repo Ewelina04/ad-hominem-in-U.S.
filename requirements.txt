@@ -3,3 +3,6 @@ numpy
 streamlit
 autogen
 time
+ag2[openai,gemini,browser-use]
+playwright
+nest_asyncio
