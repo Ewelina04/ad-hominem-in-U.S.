@@ -1,6 +1,6 @@
 pandas
 numpy
 streamlit
-time
+autogen
 ag2[openai,gemini,browser-use]
 nest_asyncio
