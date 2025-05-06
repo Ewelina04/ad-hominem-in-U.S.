@@ -2,18 +2,14 @@
 #  python -m streamlit run C:\Users\User\Downloads\Elections_2024\ECA_APP.py
 
 import streamlit as st
-import os
 from autogen import ConversableAgent
 import requests
-from collections import Counter
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import time
 import re
-from sklearn import metrics
-from transformers import pipeline
+#from sklearn import metrics
+#from transformers import pipeline
 from autogen import LLMConfig
 
 
