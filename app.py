@@ -79,7 +79,7 @@ with llm_config:
       system_message="You are the target of ad hominem who produces counterarguments and listens to the critic to improve your arguments.",
   )
 
-st.stop()
+#st.stop()
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
