@@ -79,17 +79,15 @@ with llm_config:
       system_message="You are the target of ad hominem who produces counterarguments and listens to the critic to improve your arguments.",
   )
 
-st.stop()
-
+#st.stop()
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
     st.session_state.messages = [{"role": "assistant", "content": "**Assistant**: Enter a text message for the analysis. "}]
 
 # Display or clear chat messages
-for message in st.session_state.messages:
-
-    with st.chat_message(message["role"]):
-        st.write(message["content"])
+#for message in st.session_state.messages:
+#    with st.chat_message(message["role"]):
+#        st.write(message["content"])
 
 add_spacelines(2)
 
