@@ -95,6 +95,8 @@ add_spacelines(2)
 
 with st.chat_message( "human" ):
     text = st.chat_input()
+    if text in None:
+        st.stop()
     st.write(text)
 
 
