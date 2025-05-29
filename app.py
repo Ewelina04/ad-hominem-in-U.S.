@@ -91,6 +91,8 @@ if "messages" not in st.session_state.keys():
 
 add_spacelines(2)
 
+st.write("Insert your text below.")
+add_spacelines(1)
 with st.chat_message( "human" ):
     text = st.chat_input("Arabia? And with all of the money they have, we're defending them, and they're not paying? All you have to do is speak to them. Wait. You have so many different things you have to be able to do, and I don't believe that Hillary has the stamina.")
     while text is None:
